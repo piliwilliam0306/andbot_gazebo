@@ -53,7 +53,7 @@
 
   <!-- convert joint states to TF transforms for rviz, etc -->
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
-    <param name="robot_description" command="$(find xacro)/xacro.py '$(find andbot_gazebo)/robot_description/urdf/andbot.xacro'" />
+    <param name="robot_description" command="$(find xacro)/xacro.py '$(find andbot_gazebo)/robot_description/urdf/andbot_sonar.xacro'" />
     <param name="publish_frequency" value="10"/>
     <remap from="/joint_states" to="/andbot/joint_states" />
   </node>
