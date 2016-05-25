@@ -1083,7 +1083,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1095,7 +1095,7 @@
         <topicName>sonar1</topicName>
         <frameName>sonar_1</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1135,7 +1135,7 @@
         <topicName>sonar2</topicName>
         <frameName>sonar_2</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1163,7 +1163,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1175,7 +1175,7 @@
         <topicName>sonar3</topicName>
         <frameName>sonar_3</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1203,7 +1203,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1215,7 +1215,7 @@
         <topicName>sonar4</topicName>
         <frameName>sonar_4</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1243,7 +1243,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1255,7 +1255,7 @@
         <topicName>sonar5</topicName>
         <frameName>sonar_5</frameName>
         <minRange>0.022</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1283,7 +1283,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1295,7 +1295,7 @@
         <topicName>sonar6</topicName>
         <frameName>sonar_6</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1323,7 +1323,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1335,7 +1335,7 @@
         <topicName>sonar7</topicName>
         <frameName>sonar_7</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1363,7 +1363,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1375,7 +1375,7 @@
         <topicName>sonar8</topicName>
         <frameName>sonar_8</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1404,7 +1404,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1416,7 +1416,7 @@
         <topicName>sonar9</topicName>
         <frameName>sonar_9</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1445,7 +1445,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1457,7 +1457,7 @@
         <topicName>sonar10</topicName>
         <frameName>sonar_10</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1486,7 +1486,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1498,7 +1498,7 @@
         <topicName>sonar11</topicName>
         <frameName>sonar_11</frameName>
         <minRange>0.02</minRange>
-        <maxRange>3</maxRange>
+        <maxRange>4</maxRange>
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>

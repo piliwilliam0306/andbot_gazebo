@@ -8,7 +8,7 @@ obstacle_layer:
   laser_scan_sensor: {sensor_frame: xv11, data_type: LaserScan, topic: /xv11_scan, marking: true, clearing: true, expected_update_rate: 0.4, inf_is_valid: true}
 
 sonar_layer:
-    topics: ["/sonar1", "/sonar2", "/sonar3", "/sonar4", "/sonar5", "/sonar6", "/sonar7", "/sonar8"]
+    topics: ["/sonar1", "/sonar2", "/sonar3", "/sonar4", "/sonar5", "/sonar6", "/sonar7", "/sonar8", "/sonar9", "/sonar10", "/sonar11"]
     #topics: ["sonar7", "sonar8"]
     no_readings_timeout: 0.0
     clear_threshold: 0.001
