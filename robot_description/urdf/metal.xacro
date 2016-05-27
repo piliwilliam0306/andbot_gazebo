@@ -50,10 +50,10 @@
 	
 <!--    plastic model     -->
 
-<origin xyz="-0.022 0 ${radius_wheel+0.135}" rpy="0 0 0"/>
+<!--<origin xyz="-0.022 0 ${radius_wheel+0.135}" rpy="0 0 0"/>-->
 
 <!--	metal model	-->
-<!--	<origin xyz="0.07 0 ${radius_wheel+0.135}" rpy="0 0 0"/>-->
+<origin xyz="0.07 0 ${radius_wheel+0.135}" rpy="0 0 0"/>
   </joint>
 
 <joint name="IMU_joint" type="fixed">
@@ -1105,8 +1105,7 @@
     </sensor>
   </gazebo>
 
-
- <!-- Proximity sensor plugin TO DO-->
+<!-- Proximity sensor plugin TO DO-->
   <gazebo reference="sonar_1">
     <sensor name ="sonar1" type="ray">
        <pose>0 0 0 0 0 0</pose>
@@ -1169,7 +1168,7 @@
         </scan>
         <range>
           <min>0.02</min>
-          <max>3</max>
+          <max>4</max>
           <resolution>1</resolution>
         </range>
       </ray>
