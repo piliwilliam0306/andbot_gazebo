@@ -22,13 +22,13 @@
     <collision>
       <origin xyz="0 0 -0.019" rpy="1.57 0 -1.57"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/lidar_XV-11.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/lidar_XV-11.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 -0.019" rpy="1.57 0 -1.57"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/lidar_XV-11.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/lidar_XV-11.STL"/>
       </geometry>
        <material name="Green">
          <color rgba="0 0 1 1"/>
@@ -89,13 +89,13 @@
     <collision>
       <origin xyz="0 0 ${radius_wheel-height_wheels_from_base}" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/base_part.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/base_part.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 ${radius_wheel-height_wheels_from_base}" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/base_part.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/base_part.STL"/>
       </geometry>
        <material name="Orange">
          <color rgba="1 0.5 0 1"/>
@@ -159,13 +159,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/fake_body.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/fake_body.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/fake_body.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/fake_body.STL"/>
       </geometry>
        <material name="Blue">
        </material>
@@ -192,13 +192,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/head.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/head.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/head.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/head.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -241,13 +241,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link1.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link1.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link1.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link1.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -278,13 +278,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link2.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link2.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link2.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link2.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -318,13 +318,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="1.57 1.5707 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link1.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link1.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="1.57 1.5707 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link1.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link1.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -354,13 +354,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 3.14"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link2.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link2.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link2.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link2.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -422,13 +422,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 1.570795 1.570795"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/wheel-D152_SMALL.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/wheel-D152_SMALL.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 1.570795 1.570795"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/wheel-D152_SMALL.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/wheel-D152_SMALL.STL"/>
       </geometry>
        <material name="Black">
          <color rgba="0 0 0 1"/>
@@ -476,13 +476,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 1.570795 1.570795"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/wheel-D152_SMALL.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/wheel-D152_SMALL.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 1.570795 1.570795"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/wheel-D152_SMALL.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/wheel-D152_SMALL.STL"/>
       </geometry>
        <material name="Black">
          <color rgba="0 0 0 1"/>
@@ -541,13 +541,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -580,13 +580,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -619,13 +619,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -659,13 +659,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -697,13 +697,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -736,13 +736,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -777,13 +777,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -816,13 +816,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -855,13 +855,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -897,13 +897,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -937,13 +937,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -977,13 +977,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -1016,7 +1016,7 @@
   <gazebo>
     <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
       <alwaysOn>true</alwaysOn>
-      <updateRate>10</updateRate>
+      <updateRate>100</updateRate>
       <leftJoint>right_wheel_hinge</leftJoint>
       <rightJoint>left_wheel_hinge</rightJoint>
       <wheelSeparation>${distance_between_wheels}</wheelSeparation>
@@ -1030,7 +1030,6 @@
   </gazebo>
   
 <!-- Laser plugin -->
-
   <gazebo reference="laser">
     <mu1>1.0</mu1>
     <mu2>1.0</mu2>
@@ -1080,7 +1079,11 @@
     <sensor type="ray" name="xv11_sensor">
       <pose>0 0 0 0 0 0</pose>
       <visualize>true</visualize>
+<<<<<<< HEAD
       <update_rate>5</update_rate>
+=======
+      <update_rate>40</update_rate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
       <ray>
         <scan>
           <horizontal>
@@ -1120,7 +1123,11 @@
   <gazebo reference="sonar_1">
     <sensor name ="sonar1" type="ray">
        <pose>0 0 0 0 0 0</pose>
+<<<<<<< HEAD
       <update_rate>1</update_rate>
+=======
+      <update_rate>20</update_rate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
       <visualize>true</visualize>
       <ray>
         <scan>
@@ -1149,7 +1156,11 @@
         <!--
 	<gaussianNoise>0.05</gaussianNoise>
         <alwaysOn>true</alwaysOn>
+<<<<<<< HEAD
         <updateRate>1</updateRate>
+=======
+        <updateRate>20</updateRate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <topicName>sonar1</topicName>
         <frameName>sonar_1</frameName>
         <minRange>0.02</minRange>
@@ -1164,7 +1175,11 @@
   <gazebo reference="sonar_2">
     <sensor name ="sonar2" type="ray">
        <pose>0 0 0 0 0 0</pose>
+<<<<<<< HEAD
       <update_rate>1</update_rate>
+=======
+      <update_rate>20</update_rate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
       <visualize>true</visualize>
       <ray>
         <scan>
@@ -1183,7 +1198,11 @@
         </scan>
         <range>
           <min>0.02</min>
+<<<<<<< HEAD
           <max>2.46</max>
+=======
+          <max>3</max>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1191,11 +1210,19 @@
         <!--<robotNamespace>andbot</robotNamespace>-->
         <gaussianNoise>0.05</gaussianNoise>
         <alwaysOn>true</alwaysOn>
+<<<<<<< HEAD
         <updateRate>1</updateRate>
         <topicName>sonar2</topicName>
         <frameName>sonar_2</frameName>
         <minRange>0.02</minRange>
         <maxRange>2.46</maxRange>
+=======
+        <updateRate>20</updateRate>
+        <topicName>sonar2</topicName>
+        <frameName>sonar_2</frameName>
+        <minRange>0.02</minRange>
+        <maxRange>3</maxRange>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1223,7 +1250,11 @@
         </scan>
         <range>
           <min>0.02</min>
+<<<<<<< HEAD
           <max>2.46</max>
+=======
+          <max>3</max>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1235,7 +1266,11 @@
         <topicName>sonar3</topicName>
         <frameName>sonar_3</frameName>
         <minRange>0.02</minRange>
+<<<<<<< HEAD
         <maxRange>2.46</maxRange>
+=======
+        <maxRange>3</maxRange>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1288,7 +1323,11 @@
 <gazebo reference="sonar_5">
     <sensor name ="sonar5" type="ray">
        <pose>0 0 0 0 0 0</pose>
+<<<<<<< HEAD
       <update_rate>1</update_rate>
+=======
+      <update_rate>20</update_rate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
       <visualize>true</visualize>
       <ray>
         <scan>
@@ -1307,7 +1346,11 @@
         </scan>
         <range>
           <min>0.02</min>
+<<<<<<< HEAD
           <max>2.46</max>
+=======
+          <max>3</max>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1315,11 +1358,19 @@
         <!--<robotNamespace>andbot</robotNamespace>-->
         <gaussianNoise>0.05</gaussianNoise>
         <alwaysOn>true</alwaysOn>
+<<<<<<< HEAD
         <updateRate>1</updateRate>
         <topicName>sonar5</topicName>
         <frameName>sonar_5</frameName>
         <minRange>0.022</minRange>
         <maxRange>2.46</maxRange>
+=======
+        <updateRate>20</updateRate>
+        <topicName>sonar5</topicName>
+        <frameName>sonar_5</frameName>
+        <minRange>0.022</minRange>
+        <maxRange>3</maxRange>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1328,7 +1379,11 @@
 <gazebo reference="sonar_6">
     <sensor name ="sonar6" type="ray">
        <pose>0 0 0 0 0 0</pose>
+<<<<<<< HEAD
       <update_rate>1</update_rate>
+=======
+      <update_rate>20</update_rate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
       <visualize>true</visualize>
       <ray>
         <scan>
@@ -1347,7 +1402,11 @@
         </scan>
         <range>
           <min>0.02</min>
+<<<<<<< HEAD
           <max>2.46</max>
+=======
+          <max>3</max>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1355,11 +1414,19 @@
         <!--<robotNamespace>andbot</robotNamespace>-->
         <gaussianNoise>0.05</gaussianNoise>
         <alwaysOn>true</alwaysOn>
+<<<<<<< HEAD
         <updateRate>1</updateRate>
         <topicName>sonar6</topicName>
         <frameName>sonar_6</frameName>
         <minRange>0.02</minRange>
         <maxRange>2.46</maxRange>
+=======
+        <updateRate>20</updateRate>
+        <topicName>sonar6</topicName>
+        <frameName>sonar_6</frameName>
+        <minRange>0.02</minRange>
+        <maxRange>3</maxRange>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1412,7 +1479,11 @@
 <gazebo reference="sonar_8">
     <sensor name ="sonar8" type="ray">
        <pose>0 0 0 0 0 0</pose>
+<<<<<<< HEAD
       <update_rate>1</update_rate>
+=======
+      <update_rate>20</update_rate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
       <visualize>true</visualize>
       <ray>
         <scan>
@@ -1431,7 +1502,11 @@
         </scan>
         <range>
           <min>0.02</min>
+<<<<<<< HEAD
           <max>2.46</max>
+=======
+          <max>3</max>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1439,11 +1514,19 @@
        <!-- <robotNamespace>andbot</robotNamespace>-->
         <gaussianNoise>0.05</gaussianNoise>
         <alwaysOn>true</alwaysOn>
+<<<<<<< HEAD
         <updateRate>1</updateRate>
         <topicName>sonar8</topicName>
         <frameName>sonar_8</frameName>
         <minRange>0.02</minRange>
         <maxRange>2.46</maxRange>
+=======
+        <updateRate>20</updateRate>
+        <topicName>sonar8</topicName>
+        <frameName>sonar_8</frameName>
+        <minRange>0.02</minRange>
+        <maxRange>3</maxRange>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1453,7 +1536,11 @@
 <gazebo reference="sonar_9">
     <sensor name ="sonar9" type="ray">
        <pose>0 0 0 0 0 0</pose>
+<<<<<<< HEAD
       <update_rate>1</update_rate>
+=======
+      <update_rate>20</update_rate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
       <visualize>true</visualize>
       <ray>
         <scan>
@@ -1472,7 +1559,11 @@
         </scan>
         <range>
           <min>0.02</min>
+<<<<<<< HEAD
           <max>2.46</max>
+=======
+          <max>3</max>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1480,17 +1571,29 @@
        <!-- <robotNamespace>andbot</robotNamespace>-->
         <gaussianNoise>0.05</gaussianNoise>
         <alwaysOn>true</alwaysOn>
+<<<<<<< HEAD
         <updateRate>1</updateRate>
         <topicName>sonar9</topicName>
         <frameName>sonar_9</frameName>
         <minRange>0.02</minRange>
         <maxRange>2.46</maxRange>
+=======
+        <updateRate>20</updateRate>
+        <topicName>sonar9</topicName>
+        <frameName>sonar_9</frameName>
+        <minRange>0.02</minRange>
+        <maxRange>3</maxRange>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
     </sensor>
   </gazebo>
+<<<<<<< HEAD
 <!--
+=======
+
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
 <gazebo reference="sonar_10">
     <sensor name ="sonar10" type="ray">
        <pose>0 0 0 0 0 0</pose>
@@ -1518,10 +1621,15 @@
         </range>
       </ray>
       <plugin filename="libgazebo_ros_range.so" name="gazebo_ros_range">
+<<<<<<< HEAD
 -->
        <!-- <robotNamespace>andbot</robotNamespace>-->
         <!--
 	<gaussianNoise>0.05</gaussianNoise>
+=======
+       <!-- <robotNamespace>andbot</robotNamespace>-->
+        <gaussianNoise>0.05</gaussianNoise>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <alwaysOn>true</alwaysOn>
         <updateRate>20</updateRate>
         <topicName>sonar10</topicName>
@@ -1533,12 +1641,19 @@
       </plugin>
     </sensor>
   </gazebo>
+<<<<<<< HEAD
 -->
+=======
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
 
 <gazebo reference="sonar_11">
     <sensor name ="sonar11" type="ray">
        <pose>0 0 0 0 0 0</pose>
+<<<<<<< HEAD
       <update_rate>1</update_rate>
+=======
+      <update_rate>20</update_rate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
       <visualize>true</visualize>
       <ray>
         <scan>
@@ -1557,7 +1672,11 @@
         </scan>
         <range>
           <min>0.02</min>
+<<<<<<< HEAD
           <max>2.46</max>
+=======
+          <max>3</max>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1565,11 +1684,19 @@
        <!-- <robotNamespace>andbot</robotNamespace>-->
         <gaussianNoise>0.05</gaussianNoise>
         <alwaysOn>true</alwaysOn>
+<<<<<<< HEAD
         <updateRate>1</updateRate>
         <topicName>sonar11</topicName>
         <frameName>sonar_11</frameName>
         <minRange>0.02</minRange>
         <maxRange>2.46</maxRange>
+=======
+        <updateRate>20</updateRate>
+        <topicName>sonar11</topicName>
+        <frameName>sonar_11</frameName>
+        <minRange>0.02</minRange>
+        <maxRange>3</maxRange>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
@@ -1579,7 +1706,11 @@
 <gazebo reference="sonar_12">
     <sensor name ="sonar12" type="ray">
        <pose>0 0 0 0 0 0</pose>
+<<<<<<< HEAD
       <update_rate>1</update_rate>
+=======
+      <update_rate>20</update_rate>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
       <visualize>true</visualize>
       <ray>
         <scan>
@@ -1598,7 +1729,11 @@
         </scan>
         <range>
           <min>0.02</min>
+<<<<<<< HEAD
           <max>2.46</max>
+=======
+          <max>3</max>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
           <resolution>1</resolution>
         </range>
       </ray>
@@ -1606,11 +1741,19 @@
         <!--<robotNamespace>andbot</robotNamespace>-->
         <gaussianNoise>0.05</gaussianNoise>
         <alwaysOn>true</alwaysOn>
+<<<<<<< HEAD
         <updateRate>1</updateRate>
         <topicName>sonar12</topicName>
         <frameName>sonar_12</frameName>
         <minRange>0.02</minRange>
         <maxRange>2.46</maxRange>
+=======
+        <updateRate>20</updateRate>
+        <topicName>sonar12</topicName>
+        <frameName>sonar_12</frameName>
+        <minRange>0.02</minRange>
+        <maxRange>3</maxRange>
+>>>>>>> d4dfb2c21d4fe4b8482c275a91d3576a36544961
         <fov>0.5235987755982988</fov>
         <radiation>ultrasound</radiation>
       </plugin>
