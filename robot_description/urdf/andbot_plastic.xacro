@@ -22,13 +22,13 @@
     <collision>
       <origin xyz="0 0 -0.019" rpy="1.57 0 -1.57"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/lidar_XV-11.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/lidar_XV-11.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 -0.019" rpy="1.57 0 -1.57"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/lidar_XV-11.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/lidar_XV-11.STL"/>
       </geometry>
        <material name="Green">
          <color rgba="0 0 1 1"/>
@@ -89,13 +89,13 @@
     <collision>
       <origin xyz="0 0 ${radius_wheel-height_wheels_from_base}" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/base_part.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/base_part.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 ${radius_wheel-height_wheels_from_base}" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/base_part.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/base_part.STL"/>
       </geometry>
        <material name="Orange">
          <color rgba="1 0.5 0 1"/>
@@ -159,13 +159,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/fake_body.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/fake_body.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/fake_body.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/fake_body.STL"/>
       </geometry>
        <material name="Blue">
        </material>
@@ -192,13 +192,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/head.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/head.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/head.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/head.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -241,13 +241,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link1.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link1.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link1.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link1.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -278,13 +278,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link2.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link2.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link2.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link2.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -318,13 +318,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="1.57 1.5707 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link1.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link1.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="1.57 1.5707 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link1.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link1.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -354,13 +354,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 3.14"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link2.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link2.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="-1.5707 1.5707 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/arm_link2.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/arm_link2.STL"/>
       </geometry>
        <material name="Blue">
          <color rgba="0 0 1 0.5"/>
@@ -422,13 +422,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 1.570795 1.570795"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/wheel-D152_SMALL.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/wheel-D152_SMALL.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 1.570795 1.570795"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/wheel-D152_SMALL.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/wheel-D152_SMALL.STL"/>
       </geometry>
        <material name="Black">
          <color rgba="0 0 0 1"/>
@@ -476,13 +476,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 1.570795 1.570795"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/wheel-D152_SMALL.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/wheel-D152_SMALL.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 1.570795 1.570795"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/wheel-D152_SMALL.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/wheel-D152_SMALL.STL"/>
       </geometry>
        <material name="Black">
          <color rgba="0 0 0 1"/>
@@ -539,13 +539,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -578,13 +578,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -617,13 +617,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -655,13 +655,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -693,13 +693,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -732,13 +732,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -771,13 +771,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -810,13 +810,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -849,13 +849,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -889,13 +889,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -929,13 +929,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
@@ -969,13 +969,13 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
     </collision>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://hyperlync_robot/robot_description/mesh/sonar_HC_SR04.STL"/>
+        <mesh filename="package://andbot_gazebo/robot_description/mesh/sonar_HC_SR04.STL"/>
       </geometry>
        <material name="Yellow">
          <color rgba=" 1 1 0 1"/>
